@@ -209,33 +209,40 @@ footer {
         font-size: 2rem;
     }
 }
-.quantity-box{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:10px;
-    margin:15px 0;
+
+.product-card input{
+    width:70px;
+    padding:8px;
+    text-align:center;
+    margin-top:10px;
 }
 
-.quantity-box button{
-    width:35px;
-    height:35px;
-    border:none;
+.order-btn{
+    display:block;
+    margin-top:15px;
+    text-decoration:none;
     background:#0d6efd;
-    color:#fff;
-    font-size:20px;
-    cursor:pointer;
+    color:white;
+    padding:10px;
     border-radius:5px;
+    text-align:center;
 }
 
-.quantity-box button:hover{
+.order-btn:hover{
     background:#084298;
 }
+.product-card img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
 
-.quantity-box input{
-    width:60px;
-    text-align:center;
-    font-size:16px;
-    padding:5px;
+
+.offer-card img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
 }
 
